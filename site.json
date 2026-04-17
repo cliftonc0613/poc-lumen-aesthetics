@@ -1,49 +1,116 @@
 {
   "schemaVersion": 1,
-  "layoutVariant": "classic",
+  "layoutVariant": "service-first",
   "brand": {
-    "name": "Template Preview",
-    "tagline": "This is the Rebel Alliance agent-site-template",
-    "colors": { "primary": "#1E3A5F", "secondary": "#4A6FA5", "accent": "#D4A84B", "onPrimary": "#FFFFFF", "onSecondary": "#FFFFFF" },
-    "fonts": { "heading": "Playfair Display", "body": "Inter" }
+    "name": "Lumen Aesthetics",
+    "tagline": "Physician-Supervised Medspa in Scottsdale",
+    "colors": {
+      "primary": "#2E5F64",
+      "secondary": "#7DA6A8",
+      "accent": "#C9A57B",
+      "onPrimary": "#FFFFFF",
+      "onSecondary": "#1E3A3D"
+    },
+    "fonts": {
+      "heading": "DM Serif Display",
+      "body": "DM Sans"
+    }
   },
   "content": {
     "hero": {
-      "headline": "Finally, a Website That Works as Hard as You Do",
-      "problem": "Most small business websites look outdated and fail to convert visitors into customers.",
-      "sub": "We build high-converting sites for local businesses — so you wake up to booked appointments, not a silent phone.",
-      "cta": { "label": "Get Your Free Site Review", "href": "#contact" },
-      "transitionCta": { "label": "See How It Works", "href": "#plan" }
+      "headline": "Natural Results That Still Look Like You",
+      "problem": "Too many medspas chase a generic, overdone look — filler stacked on filler, frozen faces, results that scream intervention instead of enhancement.",
+      "sub": "Lumen is a physician-supervised aesthetics practice where every protocol is customized to your face, your goals, and the way you want to feel when you walk out.",
+      "cta": {
+        "label": "Book Your Consultation",
+        "href": "#contact"
+      },
+      "transitionCta": {
+        "label": "How It Works",
+        "href": "#plan"
+      }
     },
     "services": [
-      { "name": "Custom Site Design", "description": "A site built around your business, not a generic template." },
-      { "name": "Local SEO Setup", "description": "Show up when customers in your area search for what you offer." },
-      { "name": "Speed & Performance", "description": "Fast on mobile, beautiful on desktop — no compromises." }
+      {
+        "name": "Neuromodulators",
+        "description": "Botox and Dysport administered by our physician or master injector — precise, subtle, and titrated to your face."
+      },
+      {
+        "name": "Dermal Fillers",
+        "description": "Restylane and Juvederm protocols focused on structural support and natural volume, never overfilled."
+      },
+      {
+        "name": "Medical-Grade Facials",
+        "description": "HydraFacial, dermaplaning, and chemical peels performed by licensed estheticians with physician oversight."
+      },
+      {
+        "name": "Laser & Energy Treatments",
+        "description": "Morpheus8, BBL, and laser resurfacing for skin tone, texture, and tightening — all FDA-approved devices."
+      },
+      {
+        "name": "Skin Consultations",
+        "description": "A 45-minute medical skin assessment with a custom protocol you can follow at home or with us."
+      }
     ],
     "guide": {
-      "headline": "We Know How Frustrating a Bad Website Can Be",
-      "empathy": "You've worked hard to build your business. The last thing you need is a website that sends customers to your competitor.",
-      "authority": "We've built sites for 200+ local businesses and know exactly what drives calls, bookings, and walk-ins."
+      "headline": "We Know You're Skeptical — Good",
+      "empathy": "If you've done the research, you already know most medspas are run by cosmetologists, not physicians. You've seen the before-and-afters that look worse than before. You don't want a discount Groupon for your face — you want to know who's actually holding the needle.",
+      "authority": "Lumen is directed by Dr. Elena Park, a board-certified physician with 12 years of aesthetics experience and over 15,000 procedures performed. Every injector on our team is licensed, insured, and trained in Dr. Park's conservative, face-first protocol. We turn away clients we don't think we can help.",
+      "body": "We built Lumen because we were tired of watching friends come home from medspas looking puffy, frozen, or just wrong. Our rule is simple: if you can tell someone had work done, the work was too much. We'd rather you leave your first appointment with less than you asked for and come back in four weeks for more than overdo it today."
     },
     "plan": {
-      "headline": "Here's How It Works",
+      "headline": "A Practice That Works Like Medicine Should",
       "steps": [
-        { "title": "Tell Us About Your Business", "description": "We ask a few questions about your services, customers, and what makes you different." },
-        { "title": "We Build Your Site", "description": "In 24 hours, you get a custom site with your branding, copy, and local SEO built in." },
-        { "title": "You Start Getting Calls", "description": "Go live, share the link, and watch inquiries come in from customers who are ready to book." }
+        {
+          "title": "Book a Consultation",
+          "description": "A 45-minute in-person visit with Dr. Park or a senior injector. We assess your skin, listen to your goals, and tell you honestly what we think."
+        },
+        {
+          "title": "Your Customized Protocol",
+          "description": "No package deals, no upsells. You leave with a written protocol — treatment plan, timeline, and total cost — that's built around your face, not our inventory."
+        },
+        {
+          "title": "Results You Can See (and Your Friends Can't)",
+          "description": "Treatments are sequenced conservatively over 2-4 visits. You'll see progress without anyone asking what you had done."
+        }
       ]
     },
-    "testimonials": [],
+    "stakes": {
+      "headline": "Your Face Is Not a Discount Item",
+      "body": "Discount medspas and mobile injectors cause thousands of vascular occlusions, infections, and botched outcomes every year — many of them irreversible. When it comes to your face, the cheapest option is almost always the most expensive one."
+    },
+    "successOutcomes": {
+      "headline": "What Lumen Clients Experience",
+      "outcomes": [
+        "Results that look like a well-rested version of you",
+        "A physician who will tell you no when the answer is no",
+        "Transparent pricing with no package pressure",
+        "Confidence in every needle, laser, and product used on your skin",
+        "A long-term protocol that ages with you"
+      ]
+    },
+    "testimonials": [
+      {
+        "quote": "Dr. Park talked me out of filler I thought I wanted and did a tiny amount of Botox instead. It's the best my face has looked in a decade.",
+        "author": "Jennifer L.",
+        "role": "Scottsdale"
+      },
+      {
+        "quote": "I've been to four medspas in the Valley. Lumen is the only one where I felt like I was in a doctor's office, not a retail store.",
+        "author": "Amanda S.",
+        "role": "Paradise Valley"
+      }
+    ],
     "contact": {
-      "phone": "(555) 123-4567",
-      "email": "hello@example.com",
-      "address": "123 Main Street, Anytown USA",
-      "hours": "Mon-Fri 9am-5pm",
-      "businessType": "LocalBusiness"
+      "phone": "(480) 555-0271",
+      "email": "hello@lumenaesthetics.com",
+      "address": "7135 E Camelback Rd, Suite 245, Scottsdale, AZ 85251",
+      "hours": "Tue-Sat 9am-6pm",
+      "businessType": "MedicalBusiness"
     },
     "seo": {
-      "title": "Template Preview — Rebel Alliance",
-      "description": "agent-site-template: Next.js 15 + Tailwind v4 + shadcn/ui. Single-file site.json contract."
+      "title": "Lumen Aesthetics — Scottsdale Physician-Led Medspa",
+      "description": "Physician-supervised medspa in Scottsdale offering Botox, filler, lasers, and medical facials with conservative, natural-results protocols."
     }
   }
 }
