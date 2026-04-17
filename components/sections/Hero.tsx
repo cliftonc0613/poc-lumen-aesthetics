@@ -18,7 +18,7 @@ export function Hero({ variant = "centered", content, brandName, services }: Her
       <section className="grid md:grid-cols-2 gap-8 items-center min-h-[70vh] px-6 py-16 md:py-24 max-w-7xl mx-auto">
         <div className="space-y-6">
           {content.problem && (
-            <p className="text-sm md:text-base font-medium text-[var(--color-brand-accent)] uppercase tracking-wide">
+            <p className="text-sm md:text-base font-medium text-neutral-700 uppercase tracking-wide">
               {content.problem}
             </p>
           )}
@@ -59,7 +59,7 @@ export function Hero({ variant = "centered", content, brandName, services }: Her
       <section className="px-6 py-20 md:py-32 max-w-5xl mx-auto">
         <p className="uppercase tracking-widest text-xs mb-6 text-[var(--color-brand-accent)]">{brandName}</p>
         {content.problem && (
-          <p className="text-sm md:text-base font-medium text-[var(--color-brand-accent)] uppercase tracking-wide mb-4">
+          <p className="text-sm md:text-base font-medium text-neutral-700 uppercase tracking-wide mb-4">
             {content.problem}
           </p>
         )}
@@ -89,7 +89,7 @@ export function Hero({ variant = "centered", content, brandName, services }: Her
       <section className="px-6 py-16 md:py-20 max-w-7xl mx-auto">
         <div className="max-w-3xl mb-12">
           {content.problem && (
-            <p className="text-sm md:text-base font-medium text-[var(--color-brand-accent)] uppercase tracking-wide mb-3">
+            <p className="text-sm md:text-base font-medium text-neutral-700 uppercase tracking-wide mb-3">
               {content.problem}
             </p>
           )}
@@ -150,7 +150,7 @@ export function Hero({ variant = "centered", content, brandName, services }: Her
   return (
     <section className="px-6 py-20 md:py-28 max-w-4xl mx-auto text-center">
       {content.problem && (
-        <p className="text-sm md:text-base font-medium text-[var(--color-brand-accent)] uppercase tracking-wide mb-4">
+        <p className="text-sm md:text-base font-medium text-neutral-700 uppercase tracking-wide mb-4">
           {content.problem}
         </p>
       )}
