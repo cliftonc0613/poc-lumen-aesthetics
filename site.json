@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "layoutVariant": "classic",
+  "brand": {
+    "name": "Template Preview",
+    "tagline": "This is the Rebel Alliance agent-site-template",
+    "colors": { "primary": "#1E3A5F", "secondary": "#4A6FA5", "accent": "#D4A84B", "onPrimary": "#FFFFFF", "onSecondary": "#FFFFFF" },
+    "fonts": { "heading": "Playfair Display", "body": "Inter" }
+  },
+  "content": {
+    "hero": {
+      "headline": "Finally, a Website That Works as Hard as You Do",
+      "problem": "Most small business websites look outdated and fail to convert visitors into customers.",
+      "sub": "We build high-converting sites for local businesses — so you wake up to booked appointments, not a silent phone.",
+      "cta": { "label": "Get Your Free Site Review", "href": "#contact" },
+      "transitionCta": { "label": "See How It Works", "href": "#plan" }
+    },
+    "services": [
+      { "name": "Custom Site Design", "description": "A site built around your business, not a generic template." },
+      { "name": "Local SEO Setup", "description": "Show up when customers in your area search for what you offer." },
+      { "name": "Speed & Performance", "description": "Fast on mobile, beautiful on desktop — no compromises." }
+    ],
+    "guide": {
+      "headline": "We Know How Frustrating a Bad Website Can Be",
+      "empathy": "You've worked hard to build your business. The last thing you need is a website that sends customers to your competitor.",
+      "authority": "We've built sites for 200+ local businesses and know exactly what drives calls, bookings, and walk-ins."
+    },
+    "plan": {
+      "headline": "Here's How It Works",
+      "steps": [
+        { "title": "Tell Us About Your Business", "description": "We ask a few questions about your services, customers, and what makes you different." },
+        { "title": "We Build Your Site", "description": "In 24 hours, you get a custom site with your branding, copy, and local SEO built in." },
+        { "title": "You Start Getting Calls", "description": "Go live, share the link, and watch inquiries come in from customers who are ready to book." }
+      ]
+    },
+    "testimonials": [],
+    "contact": {
+      "phone": "(555) 123-4567",
+      "email": "hello@example.com",
+      "address": "123 Main Street, Anytown USA",
+      "hours": "Mon-Fri 9am-5pm",
+      "businessType": "LocalBusiness"
+    },
+    "seo": {
+      "title": "Template Preview — Rebel Alliance",
+      "description": "agent-site-template: Next.js 15 + Tailwind v4 + shadcn/ui. Single-file site.json contract."
+    }
+  }
+}

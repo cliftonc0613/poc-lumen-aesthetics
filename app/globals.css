@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Light-mode only for Phase 0. */
+:root {
+  --color-brand-primary: oklch(0.55 0.15 250);
+  --color-brand-secondary: oklch(0.35 0.10 250);
+  --color-brand-accent: oklch(0.75 0.15 75);
+  --color-brand-on-primary: #ffffff;
+  --color-brand-on-secondary: #ffffff;
+}
+
+@theme inline {
+  --color-brand-primary: var(--color-brand-primary);
+  --color-brand-secondary: var(--color-brand-secondary);
+  --color-brand-accent: var(--color-brand-accent);
+  --color-brand-on-primary: var(--color-brand-on-primary);
+  --color-brand-on-secondary: var(--color-brand-on-secondary);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  color: #0a0a0a;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-accent);
+  outline-offset: 2px;
+}
