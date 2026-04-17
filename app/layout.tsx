@@ -3,12 +3,11 @@ import "./globals.css";
 import { site } from "@/lib/content";
 import { FONT_REGISTRY, type FontKey } from "@/lib/fonts";
 
-const allFontVariables = Object.values(FONT_REGISTRY)
-  .map((f) => f.variable)
-  .join(" ");
-
 const headingFont = FONT_REGISTRY[site.brand.fonts.heading as FontKey] ?? FONT_REGISTRY["Inter"];
 const bodyFont = FONT_REGISTRY[site.brand.fonts.body as FontKey] ?? FONT_REGISTRY["Inter"];
+
+// Only preload the 2 fonts this site actually uses — loading all 10 adds ~360 KB of font data
+const usedFontVariables = Array.from(new Set([headingFont, bodyFont].map(f => f.variable))).join(" ");
 
 export const metadata: Metadata = {
   title: site.content.seo?.title ?? `${site.brand.name}${site.brand.tagline ? ` — ${site.brand.tagline}` : ""}`.slice(0, 60),
@@ -24,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={allFontVariables}
+      className={usedFontVariables}
       style={{
         ["--color-brand-primary" as string]: site.brand.colors.primary,
         ["--color-brand-secondary" as string]: site.brand.colors.secondary,
