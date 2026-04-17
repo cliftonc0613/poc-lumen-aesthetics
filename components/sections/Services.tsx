@@ -40,7 +40,7 @@ export function Services({ variant = "grid-3", content, headline = "Services" }:
           <div key={i} className="border border-neutral-200 rounded-lg p-6 md:p-8 hover:shadow-md transition">
             <h3 className="font-heading text-xl md:text-2xl font-semibold mb-3">{svc.name}</h3>
             <p className="text-neutral-700 leading-relaxed">{svc.description}</p>
-            {svc.price && <p className="mt-4 text-sm font-semibold text-[var(--color-brand-primary)]">{svc.price}</p>}
+            {svc.price && <p className="mt-4 text-sm font-semibold text-neutral-800">{svc.price}</p>}
           </div>
         ))}
       </div>

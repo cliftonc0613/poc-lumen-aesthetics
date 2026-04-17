@@ -57,7 +57,7 @@ export function Hero({ variant = "centered", content, brandName, services }: Her
   if (variant === "editorial") {
     return (
       <section className="px-6 py-20 md:py-32 max-w-5xl mx-auto">
-        <p className="uppercase tracking-widest text-xs mb-6 text-[var(--color-brand-accent)]">{brandName}</p>
+        <p className="uppercase tracking-widest text-xs mb-6 text-neutral-500">{brandName}</p>
         {content.problem && (
           <p className="text-sm md:text-base font-medium text-neutral-700 uppercase tracking-wide mb-4">
             {content.problem}

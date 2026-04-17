@@ -15,7 +15,7 @@ export function Guide({ variant = "split", content }: GuideProps) {
           {content.headline}
         </h2>
         <p className="text-lg leading-relaxed text-neutral-700 mb-4">{content.empathy}</p>
-        <p className="text-base leading-relaxed text-[var(--color-brand-secondary)] font-medium">{content.authority}</p>
+        <p className="text-base leading-relaxed text-neutral-700 font-medium">{content.authority}</p>
         {content.body && <p className="mt-4 text-base leading-relaxed text-neutral-600">{content.body}</p>}
       </section>
     );
@@ -26,7 +26,7 @@ export function Guide({ variant = "split", content }: GuideProps) {
       <section id="about" aria-labelledby="guide-heading" className="px-6 py-12 md:py-16 max-w-4xl mx-auto">
         <h2 id="guide-heading" className="font-heading text-2xl md:text-3xl mb-4">{content.headline}</h2>
         <p className="text-neutral-700 leading-relaxed mb-2">{content.empathy}</p>
-        <p className="text-sm font-medium text-[var(--color-brand-secondary)]">{content.authority}</p>
+        <p className="text-sm font-medium text-neutral-700">{content.authority}</p>
       </section>
     );
   }
